@@ -1,0 +1,38 @@
+{
+  "name": "scl007-burgerqueen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeronicaManchola/SCL007-BurgerQueen.git"
+  },
+  "author": "Veronica Manchola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeronicaManchola/SCL007-BurgerQueen/issues"
+  },
+  "homepage": "https://github.com/VeronicaManchola/SCL007-BurgerQueen#readme",
+  "dependencies": {
+    "firebase": "^5.8.5",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
