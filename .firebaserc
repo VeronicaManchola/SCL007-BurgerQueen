@@ -1,5 +1,6 @@
 {
   "projects": {
-    "stage": "burgerqueenscl7"
+    "stage": "burgerqueenscl7",
+    "default": "burgerqueenscl7"
   }
 }

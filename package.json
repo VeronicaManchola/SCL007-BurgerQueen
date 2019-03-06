@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/VeronicaManchola/SCL007-BurgerQueen/issues"
   },
-  "homepage": "https://github.com/VeronicaManchola/SCL007-BurgerQueen#readme",
+  "homepage": "https://burgerqueenscl7.firebaseapp.com/",
   "dependencies": {
     "firebase": "^5.8.5",
     "react": "^16.8.3",
