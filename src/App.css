@@ -1,10 +1,15 @@
 #root {
-  background-color: cadetblue;
+  background-color: lightgray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.sheet{
+  width: 80%;
+  min-height: 90vh;
 }
 
 .order{

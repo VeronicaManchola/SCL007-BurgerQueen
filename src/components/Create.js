@@ -49,25 +49,17 @@ class Create extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2>Nueva orden</h2>
+                        <h2>Nuevo cliente</h2>
                     </div>
                 </div>
                 <form onSubmit={this.onSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="order">Orden:</label>
-                        <div>{<Items/>}</div>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="total">Total:</label>
-                        <input type="text" className="form-control" id="total" name="total" onChange={this.onChange} placeholder="Total" value={total} />
-                    </div>
                     <div className="form-group">
                         <label htmlFor="cliente">Cliente:</label>
                         <input type="text" className="form-control" id="cliente" name="customer" onChange={this.onChange} placeholder="Cliente" value={customer} />
                     </div>
                     <div className="row">
                         <div className='col'>
-                            <h4><Link to="/" className="btn btn-primary">Lista de ordenes</Link></h4>
+                            <h4><Link to="/" className="btn btn-primary">Lista de clientes</Link></h4>
                         </div>
                         <div className="col">
                             <button type="submit" className="btn btn-success">Guardar</button>
