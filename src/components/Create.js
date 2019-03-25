@@ -48,18 +48,21 @@ class Create extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col">
-                        <h2>Nuevo cliente</h2>
+                    <div className="col title">
+                        <h1>Nueva orden</h1>
                     </div>
                 </div>
                 <form onSubmit={this.onSubmit}>
+                    <div className="form-group">
+                        <div>{<Items />}</div>
+                    </div>
                     <div className="form-group">
                         <label htmlFor="cliente">Cliente:</label>
                         <input type="text" className="form-control" id="cliente" name="customer" onChange={this.onChange} placeholder="Cliente" value={customer} />
                     </div>
                     <div className="row">
                         <div className='col'>
-                            <h4><Link to="/" className="btn btn-primary">Lista de clientes</Link></h4>
+                            <h4><Link to="/" className="btn btn-primary">Lista de ordenes</Link></h4>
                         </div>
                         <div className="col">
                             <button type="submit" className="btn btn-success">Guardar</button>

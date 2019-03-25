@@ -36,24 +36,25 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="panel panel-default">
-          <div className="panel-heading">
-            <h3 className="panel-title">
-              Lista de clientes
-            </h3>
+        <div className="container">
+          <div className="row">
+            <h3 className="col">Lista de ordenes</h3>
+            <h4 className="col"><Link to="/create" className="btn btn-primary">Agregar orden</Link></h4>
           </div>
           <div className="panel-body">
-            <h4><Link to="/create" className="btn btn-primary">Agregar cliente</Link></h4>
             <table className="table table-stripe">
               <thead>
                 <tr>
+                  <th>Orden</th>
+                  <th>Total</th>
                   <th>Cliente</th>
                 </tr>
               </thead>
               <tbody>
                 {this.state.orders.map((order, index) =>
                   <tr id={"list-"+index}>
+                    <td><Link to={`/show/${order.key}`}>{order.menu}</Link></td>
+                    <td>{order.total}</td>
                     <td>{order.customer}</td>
                   </tr>
                 )}
@@ -61,7 +62,6 @@ class App extends Component {
             </table>
           </div>
         </div>
-      </div>
     );
   }
 }
